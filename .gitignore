@@ -1,0 +1,22 @@
+# Sensitive credentials & secrets
+.env
+*.env
+serviceAccountKey.json
+*.pem
+*.key
+
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+
+# Models & temp artifacts
+models/*.pkl
+models/*.h5
+models/*.keras
+scratch/
+.pytest_cache/
